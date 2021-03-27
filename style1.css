@@ -1,0 +1,48 @@
+/* myStyle.css */
+body {
+ background-color: purple;
+ color: #FFFFFF;
+}
+h1 {
+ color: #FFFF33;
+ text-align: center;
+ font: italic 200% fantasy;
+}
+p {
+ background-color: #FFFF33;
+ color: #333300;
+ text-align: left;
+ border: 3px groove #FFFF33;
+}
+
+p#alert {
+    color: black;
+    font-weight: bold;
+    background: #FFFF66; /* yellow */
+    border: 2px solid black;
+    padding: 1em;
+  }
+
+table {
+	color:black;
+  border:none;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 40%;
+  border: 1px solid #ddd;
+}
+
+
+
+th, td {
+  text-align: center;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: yellow;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}

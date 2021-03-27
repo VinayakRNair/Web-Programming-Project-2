@@ -1,0 +1,291 @@
+body {
+
+  background:lightblue;
+font-family: 'Comic Sans Ms', cursive;
+  color: blue;
+  text-align: center;
+
+}
+
+
+form {
+  width: 450px;
+  margin: 10% auto;
+
+}
+.about{
+  margin-top: 50px;
+  padding-bottom : 55px
+
+}
+
+.signup{
+  font-size: 18pt;
+
+}
+
+    .pic{
+    width: 350px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    }
+	
+	.pic:hover{
+	  transform:scale(1.15);
+		
+	  transition: .5s ease-in-out;
+	}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ /* background-color: #006666; */
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: red;
+  font-style: italic;
+  font-size: 16pt;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #00b3b3;
+}
+
+.active {
+  background-color: lightyellow;
+}
+h1 {
+    font-size: 115%;
+    margin: 1em 2em;
+    padding: 0;
+    position: relative;
+
+}
+.content {
+    padding: 0 0 0 3em;
+    font-size: 16px;
+}
+.userinput{
+border: 0;
+font-size: 16pt;
+text-align: center;
+outline: none;
+color : black;
+ font-family:fantasy;
+}
+
+.header {
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: black;
+}
+.description {
+  font-size: 19px;
+  letter-spacing: 1px;
+  line-height: 1.3em;
+  margin: -2px 0 45px;
+  color: black;
+}
+.input {
+  display: flex;
+  align-items: center;
+}
+
+.checkboxy {
+    display: block;
+    position: static;
+    height: 25px;
+    margin-top: 10px;
+    clear: both;
+  }
+
+.button {
+  height: 44px;
+  border: none;
+  padding: 10px;
+}
+#email,  #name{
+  width: 100%;
+  margin: 5px;
+  background: #FDFCFB;
+  font-family: inherit;
+  color: #737373;
+  letter-spacing: 1px;
+  text-indent: 5%;
+  border-radius: 5px;
+}
+
+
+#submit {
+ cursor: grab;
+  height: 46px;
+  background: #E86C8D;
+  font-family: inherit;
+  font-weight: bold;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: inherit;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background .3s ease-in-out;
+}
+
+
+td:nth-child(3n) {
+   border-right: 2px solid black;
+}
+
+tr:nth-child(3n) {
+   border-bottom: 2px solid black;
+}
+
+ table {
+    font-family: fantasy;
+    font-size: 20pt;
+    border: 2px solid black;
+    background:grey;
+
+      }
+td {
+    width: 50px;
+        height: 50px;
+        border: 1px solid black;
+        text-align: center;
+        vertical-align: middle;
+      }
+
+#danger{
+
+      	 background-color:orange;
+      	 height:50px;
+      	 width:80px;
+      	text-align:center;
+      }
+
+#show{
+      margin-bottom: 100px;
+       font-family: cursive;
+       font-style: italic;
+       color : black;
+       font-size: 18pt;
+      }
+      #names{
+          padding-top: 15px;
+          padding-bottom: 5px;
+          color: white;
+          font-family: cursive;
+          font-weight: bold;
+          font-size: 18pt;
+
+      }
+.user_guess{
+
+        width: 150px;
+      }
+#player1 , #player2{
+        height : 150px;
+        margin-top: 90px;
+        border-radius: 55px;
+        background: #006666;
+        margin-right: 25px;
+        margin-bottom: 150px;
+      }
+
+input[type=text]#user_guess {
+        display: block;
+      }
+
+
+#main {
+
+        margin-left: 50px;
+        width: 1200px;
+        height: 300px;
+        border: 0 solid black;
+        display: flex;
+      }
+
+#main div {
+
+        flex-basis: 60%;
+        margin-left: 20px;
+        margin-top: -50px;
+      }
+
+#main div:nth-of-type(2) {
+       flex-basis: 40%;
+         margin-left: 20px;
+       margin-top: -105px;
+
+      }
+
+.scoresection{
+        padding: 10px;
+        height : 550px;
+        background-color: white;
+        border-style: inset;
+        width : 400px;
+
+      }
+.skewed {
+        background: url(//stephy.mccdgm.net/images/patterns/dark_wood.png) #2b2b2b;
+          transform:  skew(-28.5deg);
+          margin-top:60px;
+          margin-bottom: 100px;
+      }
+
+.skewed span {
+        font-family: Oswald, sans-serif;
+        font-size: 24pt;
+        padding: 0px; /* to extend the border past the text */
+        margin-top :10px;
+        background: blue;
+
+      }
+.welcome{
+  color:navy;
+  font-size: 20pt;
+  font-style: italic;
+}
+
+.contact{
+  font-size: 22pt;
+  color: black;
+  font-family: Lucida ;
+}
+
+.contact h3{
+  color:darkgreen;
+  font-size: 18pt;
+  font-family: cursive;
+  text-decoration: underline;
+}
+
+#game{
+  margin-top: 100px;
+}
+
+.contact p{
+  color:char;
+  font-size: 16pt;
+}
+.tandc{
+  color: blue;
+  font-style: cursive;
+  font-size: 13pt;
+}
